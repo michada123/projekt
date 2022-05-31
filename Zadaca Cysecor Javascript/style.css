@@ -1,0 +1,122 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.to-do { 
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(162, 162, 222);
+    display: grid;
+    align-items: center;
+    
+}
+
+ .container { 
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(117, 117, 192);
+    
+}
+article {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+ }
+ .item { 
+     margin-bottom: 15px;
+ }
+ article input, span i { 
+     padding: 10px;
+
+ }
+
+ .lista { 
+     height: 15px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .lista p{ 
+     background-color: white;
+     min-width: 192px;
+     max-width: 100%;
+     padding: 9px;
+     margin-right: 5px;
+     
+ }
+
+ .lista2 { 
+     display: flex;
+     flex-direction: row;
+ }
+
+ 
+
+ .films { 
+
+    background-color: rgb(146, 146, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+ }
+
+ .films-container { 
+     display: flex;
+     justify-content: space-evenly;
+     
+ }
+
+ .films-item {
+
+    background-color: rgb(83, 83, 187);
+    border: px solid white;
+    width: 30%;
+    padding: 10px;
+    min-height: 300px;
+    text-align: center;
+    align-items: center;
+
+  }
+  .films-item button { 
+      padding: 10px;
+      background-color: brown;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+  }
+
+  .films-item button:hover{ 
+      border:2px solid white;
+  }
+
+  .films-kart { 
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .kupljeni-filmovi { 
+     min-width: 30%;
+      border: 1px solid white;
+      padding: 10px;
+      margin-right: 5px;
+  }
+
+  .kupljeni-filmovi button { 
+    padding: 10px;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
